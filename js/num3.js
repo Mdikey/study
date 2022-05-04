@@ -249,8 +249,13 @@
 //     }
 // }  
 
-let array = [];
-for (let i = 5; i <= 10; i++) {
-    array[i]=i;
+const arrayOfNumbers = [];
+for (let i = 0; i <= 5; i++) {
+    arrayOfNumbers[i]=5 + i;
 }
-console.log(array)
+console.log(arrayOfNumbers)
+    // Пишем решение вот тут
+    
+    
+    // Не трогаем
+    // return arrayOfNumbers;
